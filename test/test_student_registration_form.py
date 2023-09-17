@@ -8,7 +8,7 @@ def test_register_user():
 
     registration_page = RegistrationPage()
 
-    ivan = User(
+    Danila = User(
         first_name='Danila',
         last_name='Panov',
         email='danila.panov.02@mail.ru',
@@ -25,6 +25,6 @@ def test_register_user():
 
     registration_page.open()
 
-    registration_page.register(ivan)
+    registration_page.register(Danila)
 
-    registration_page.should_have_registered(ivan)
+    registration_page.should_have_registered(Danila)
