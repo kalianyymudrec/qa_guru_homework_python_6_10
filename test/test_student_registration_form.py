@@ -38,3 +38,4 @@ def test_fill_out_and_submit_form():
         ('Address', 'Omsk'),
         ('State and City', 'Haryana Panipat')
     )
+
