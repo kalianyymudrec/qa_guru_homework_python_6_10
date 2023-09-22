@@ -16,7 +16,7 @@ def test_fill_out_and_submit_form():
         .fill_email('danila.panov.02@mail.ru')
         .fill_gender('Male')
         .fill_mobile_number('0123456789')
-        .fill_date_of_birth('2002', '08', '18')
+        .fill_date_of_birth('2002', '7', '18')
         .fill_subjects('Maths', 'English')
         .fill_hobbies('Reading', 'Music')
         .upload_picture(os.path.join(RES_DIR, 'image.jpg'))
